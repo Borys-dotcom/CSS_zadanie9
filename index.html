@@ -11,100 +11,105 @@
 </head>
 <body>
     
-    <header>
-        <h1>front end developer</h1>
-        <p id="headerP">HTML <span class="bullet"> CSS </span> <span class="bullet"> JavaScript</p>
-        <button id="more">dowiedz się więcej</button>
+    <header id="mainHeader">
+        <div id="headerContainer">
+            <h1 id="mainTittle">front end developer</h1>
+            <p id="headerP">HTML <span class="bullet"> CSS </span> <span class="bullet"> JavaScript</p>
+            <a  class="links" href="#about">dowiedz się więcej</a>
+        </div>
     </header>
 
     <nav>
-        <ul>
+        <ul id="mainNav">
             <li><a href="#about">o mnie</a></li>
             <li><a href="#articlePortfolio">portfolio</a></li>
             <li><a href="#contact">kontakt</a></li>
         </ul>
     </nav>
 
-    <article id="articleAbout">    
-        <h2 id="about">o mnie</h2>
-        <div id="pictureContainer"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, beatae nam officiis facere rem, iste excepturi eaque voluptatibus iusto libero ratione unde quia at reiciendis sit sapiente nesciunt, optio placeat!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aperiam aspernatur molestias asperiores optio maiores similique laboriosam officiis, molestiae porro, cum, dicta debitis soluta adipisci recusandae inventore maxime totam autem?</p>
-        <button>moje portfolio</button>
-    </article>
-
-    <article id="articlePortfolio">
-        <h2>portfolio</h2>
-
-        <div id="gallery">
-            
-            <figure>
-                <img src="img/portfolio/photo-1.jpg" alt="zdjecie 1">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-2.jpg" alt="zdjecie 2">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-3.jpg" alt="zdjecie 3">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-4.jpg" alt="zdjecie 4">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-5.jpg" alt="zdjecie 5">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-6.jpg" alt="zdjecie 6">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-7.jpg" alt="zdjecie 7">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-8.jpg" alt="zdjecie 8">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-9.jpg" alt="zdjecie 9">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-10.jpg" alt="zdjecie 10">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-11.jpg" alt="zdjecie 11">
-                <div class="overlay">Projekt</div>
-            </figure>
-            <figure>
-                <img src="img/portfolio/photo-12.jpg" alt="zdjecie 12">
-                <div class="overlay">Projekt</div>
-            </figure>
+    <article id="about">
+        <div class="articles">
+            <h2 id="about" class="articleTittle">o mnie</h2>
+            <img src="./img/about.jpg" alt="my Picture" id="myPicture">
+            <!-- <div id="pictureContainer"></div> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, beatae nam officiis facere rem, iste excepturi eaque voluptatibus iusto libero ratione unde quia at reiciendis sit sapiente nesciunt, optio placeat!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aperiam aspernatur molestias asperiores optio maiores similique laboriosam officiis, molestiae porro, cum, dicta debitis soluta adipisci recusandae inventore maxime totam autem?</p>
+            <a  class="links" href="#articlePortfolio">moje portfolio</a>
         </div>
     </article>
 
-    <article id="contact">
+    <article id="articlePortfolio">
+        <div class="articles">
+            <h2 class="articleTittle">portfolio</h2>
+            <div id="gallery">
+                <figure>
+                    <img src="img/portfolio/photo-1.jpg" alt="zdjecie 1" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-2.jpg" alt="zdjecie 2" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-3.jpg" alt="zdjecie 3" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-4.jpg" alt="zdjecie 4" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-5.jpg" alt="zdjecie 5" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-6.jpg" alt="zdjecie 6" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-7.jpg" alt="zdjecie 7" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-8.jpg" alt="zdjecie 8" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-9.jpg" alt="zdjecie 9" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-10.jpg" alt="zdjecie 10" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-11.jpg" alt="zdjecie 11" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+                <figure>
+                    <img src="img/portfolio/photo-12.jpg" alt="zdjecie 12" class="galleryImg">
+                    <div class="overlay">Projekt</div>
+                </figure>
+            </div>
+        </div>
+    </article>
+
+    <article id="contact" class="articles">
         <h2>kontakt</h2>
-        <form action="https://formspree.io/f/xvgoknke" method="POST">
-        <input type="text" name="name" id="name" placeholder="Imię">
-        <input type="email" name="mail" id="mail" placeholder="Email">
-        <textarea name="message" id="message" placeholder="Wpisz wiadomość"></textarea>
-        <input type="submit" value="wyślij wiadomość" id="submitButton">            
+        <form action="https://formspree.io/f/xvgoknke" method="POST" class="contactForm">
+            <input type="text" name="name" id="name" placeholder="Imię">
+            <input type="email" name="mail" id="mail" placeholder="Email">
+            <textarea name="message" id="message" placeholder="Wpisz wiadomość"></textarea>
+            <input type="submit" value="wyślij wiadomość" id="submitButton">            
         </form>
     </article>
 
-    <p id="logos">
+    <div id="logos">
         <img class="svg" src="svg/fb.svg" alt="fb">
         <img class="svg" src="svg/twitter.svg" alt="twitter">
         <img class="svg" src="svg/insta.svg" alt="insta">
         <img class="svg" src="svg/yt.svg" alt="yt">
-    </p>
+    </div>
 
     <footer>
         <p>Copyright Akademia 108 - Szkoła Programowania</p>
