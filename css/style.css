@@ -78,6 +78,12 @@
     text-decoration: none;
 }
 
+.links:hover,
+#submitButton:hover{
+    background-color: #c8c7c5;
+    cursor: pointer;
+}
+
 /* nav{
     width: 100%;
 } */
@@ -250,6 +256,7 @@ footer{
 .svg:hover{
     opacity: 1;
     filter: brightness(0) saturate(100%) invert(45%) sepia(0%) saturate(2666%) hue-rotate(318deg) brightness(101%) contrast(99%);
+    cursor: pointer;
 }
 
 
