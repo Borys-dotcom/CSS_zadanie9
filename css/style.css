@@ -272,6 +272,10 @@ footer{
     .articles{
         max-width: 768px;
     }
+    
+    figure{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -282,5 +286,9 @@ footer{
 
     #logos{
         max-width: 70%;
+    }
+
+    figure{
+        width: 100%;
     }
 }
