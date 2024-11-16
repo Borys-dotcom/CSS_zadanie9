@@ -6,9 +6,9 @@
 }
 
 
-/* body{
-    width: 100%;
-} */
+body{
+    margin: 0px;
+}
 
 #mainHeader{
     height: 400px;
